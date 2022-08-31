@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 1px solid rgba(0, 0, 0, 0.047);
+  width: 30rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+input {
+  padding: 0.7rem;
+  width: 17em;
+  margin: 2rem;
+  margin-left: 3.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.529);
+  font-size: medium;
+}
+button {
+  padding: 0.6rem;
+  width: 5em;
+  border: none;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  right: 2.2rem;
+  font-size: medium;
+  top: 0.18rem;
+  background-color: #1977f3;
+}
+button:hover {
+  background-color: #0d4b9d;
+  transition: 2s;
+}
+.card-container {
+  font-family: "Rubik", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 1px solid rgba(0, 0, 0, 0.047);
+  background-color: #1977f38c;
+  border-radius: 6px;
+  padding: 1rem;
+  height: auto;
+  width: 15rem;
+  margin: auto;
+  margin-top: 1.2rem;
+}
+.card-container img {
+  border-radius: 50%;
+  padding: 0 4rem;
+}
+.details {
+  /* padding-left: 0.rem; */
+  font-size: large;
+}
